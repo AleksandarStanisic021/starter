@@ -21,8 +21,18 @@
 
     y = 20; // Assign value to y`   
     console.log(y);
+function greet() {
+    var message = "Greetings!";
+    console.log(message);
+    function innerGreet() {
+        var innerMessage = "Hello from inside!";
+        console.log(message); // Accessing outer function variable
+        console.log(innerMessage);  // Accessing inner function variable
+    }
+    innerGreet(); /* Call the inner function */
+    }
 
-
+greet()
 
 
 
