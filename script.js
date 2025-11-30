@@ -1,8 +1,11 @@
     console.log('Hello, World!');
-    let amazing = true;
-    if (amazing) alert('JavaScript is FUN!');
-
-    console.log(40 + 8 + 23 - 10);
-    console.log('Jonas');
-    console.log(23);    
+   /*  This is a multi-line comment.
+       It spans multiple lines.
+   */
+    let x = 10; // This is a single-line comment.
+    console.log(x);
+    let name = "Alice"; /* Another multi-line comment */
+    console.log("Name:", name); // Print the name
     
+
+
